@@ -1,0 +1,26 @@
+
+Call:
+lm(formula = atten$Attendance ~ atten$Team_Salary + atten$Prior_Attendance + 
+    atten$Current_Wins + atten$Prior_Wins + atten$Population + 
+    atten$Park.Age)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-39759  -5542   -360   5134  39686 
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)            1.341e+03  3.099e+02   4.325 1.53e-05 ***
+atten$Team_Salary      6.146e-05  1.635e-06  37.593  < 2e-16 ***
+atten$Prior_Attendance 4.312e-01  4.728e-03  91.214  < 2e-16 ***
+atten$Current_Wins     2.941e+01  1.771e+00  16.604  < 2e-16 ***
+atten$Prior_Wins       1.082e+02  4.247e+00  25.480  < 2e-16 ***
+atten$Population       1.123e-04  1.112e-05  10.102  < 2e-16 ***
+atten$Park.Age         6.875e+00  1.797e+00   3.826 0.000131 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 7975 on 34823 degrees of freedom
+Multiple R-squared:  0.4653,	Adjusted R-squared:  0.4652 
+F-statistic:  5051 on 6 and 34823 DF,  p-value: < 2.2e-16
+
