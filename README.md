@@ -5,11 +5,16 @@ Will eventually result in single MySQL table Games_Regression
 #### Data Sources
 
 * Game Logs
-..*  ~/DataAnalysis/MLBAttendance/Attendance/data_to_load/game_logs_2010-2014b.txt
+..* Original source: [http://www.retrosheet.org/gamelogs/index.html]
+..*  ~/data_to_load/game_logs_2010-2014b.txt
 * Ballpark Info
-..* ~/DataAnalysis/MLBAttendance/parks_table.csv
+..* Original source: [http://www.retrosheet.org/parkcode.txt]
+..* ~/data_to_load/parks_table.csv
 * Population
-..* ~/DataAnalysis/MLBAttendance/Attendance/data_to_load/msa_population_to_load.txt
+..* Original sources: U.S census 2010, Canada census 2011
+..* ~data_to_load/msa_population_to_load.txt
+* Lahman Database of Baseball Statistics
+..* Original source: [http://www.seanlahman.com/baseball-archive/statistics/]
 
 #### Calculating Key Values and Building Necessary Tables
 
