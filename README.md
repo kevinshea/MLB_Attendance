@@ -68,3 +68,20 @@ Note: The single script version would need to create a temp table for Team Salar
 10. Population
 11. Team_Salary
 12. Park Age
+
+### Performing Regressions
+
+Output of Games_Regression tables serves as our data source for performing regressions with R.
+
+Regressions were performed on team attendance across all teams and each team individually for the following variables
+
+* Prior Attendance
+* Current Wins
+* Prior Wins
+* Population
+* Team Salary
+* Park Age
+
+These variables were assessed together as well as individually.
+
+R-square values and coefficients were stored for exploration in Excel.
