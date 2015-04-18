@@ -1,3 +1,6 @@
+## performs calculation to determine which home game number a game is
+## resets counter when team or year changes
+## loads into Home_Games
 
 SET @prev := 'string';
 SET @game_number := 1;

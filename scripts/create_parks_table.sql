@@ -1,3 +1,6 @@
+## Build a table with information on MLB parks
+## source: retrosheets.org Ballpark Codes
+
 CREATE TABLE Parks
 (
   parkID varchar(255),

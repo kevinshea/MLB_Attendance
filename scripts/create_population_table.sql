@@ -1,3 +1,5 @@
+## create a table with metro area population for MLB cities
+
 CREATE TABLE Population
 (
   Team varchar(255),

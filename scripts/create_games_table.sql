@@ -1,3 +1,5 @@
+## Create a table with individual game information
+
 CREATE TABLE Games
 (
   Game_Date date,
@@ -14,5 +16,5 @@ CREATE TABLE Games
   Day_or_Night varchar(255),
   Park_ID varchar(255),
   Attendance int,
-  Time_of_Game int  
+  Time_of_Game int
 )

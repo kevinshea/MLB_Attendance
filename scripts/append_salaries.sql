@@ -1,4 +1,8 @@
+## Step 5 of 6 for appending fields to build Games_Regression
+## previously named get_salaries.sql
 
+## use Salaries table from Lahman database
+## sum salaries across players to get a team total
 CREATE TEMPORARY TABLE IF NOT EXISTS temp_Salary AS
   SELECT yearID, teamID, sum(salary) as Team_Salary
   FROM Salaries

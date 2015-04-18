@@ -1,3 +1,6 @@
+## Step 2 of 6 for appending fields to build Games_Regression
+## previously named get_current_team_wins.sql
+
 CREATE TABLE IF NOT EXISTS Games_Attend_Wins
 SELECT gpa.Game_Date,
        gpa.Day_of_Week,

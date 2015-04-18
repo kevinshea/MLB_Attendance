@@ -1,3 +1,6 @@
+## Step 6 of 6 for appending fields to build Games_Regression
+## previously named get_park_age.sql
+
 CREATE TABLE IF NOT EXISTS Games_Regression AS
   SELECT gaw.Game_Date,
          gaw.Day_of_Week,

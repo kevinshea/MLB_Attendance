@@ -1,3 +1,6 @@
+## Step 4 of 6 for appending fields to build Games_Regression
+## previously named get_population.sql
+
 CREATE TABLE IF NOT EXISTS Games_Attend_Cwins_Pwins_Pop
 SELECT gaw.Game_Date,
        gaw.Day_of_Week,

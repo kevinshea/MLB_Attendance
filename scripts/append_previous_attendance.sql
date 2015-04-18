@@ -1,3 +1,5 @@
+## Step 1 of 6 for appending fields to build Games_Regression
+## previously named create_previous_attendance.sql
 
 ## Creates a table which gives us the home game number for each game played
 CREATE TABLE IF NOT EXISTS temp_home_number AS
